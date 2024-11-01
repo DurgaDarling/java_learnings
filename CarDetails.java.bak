@@ -1,0 +1,18 @@
+class CarDetails 
+{
+	public static void main(String[] args) 
+	{
+		String carname="Mahindra XUV";
+		String carseries="XUV 800";
+        long priceofcar=2000000l;
+		String carcolour="Black";
+		String carspeed="280km/hr";
+		String carmilaze="20km/lt";
+		System.out.println("***Details of XUV800***");
+        System.out.println("Car Name:"+carname);
+		System.out.println("Car Series:"+carseries);
+		System.out.println("Car price:"+priceofcar);
+		System.out.println("Car speed:"+carspeed);
+		System.out.println("Car Milaze"+carmilaze);
+	}
+}
